@@ -25,7 +25,7 @@ qplot(
   geom = "line",
   main = "Motor Vehicles PM2.5 emissions by year - Baltimore City, Maryland",
   xlab = "Year",
-  ylab = "Total emissions"
+  ylab = "Total emissions (tons)"
 )
 
 dev.off()

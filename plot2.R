@@ -20,7 +20,7 @@ plot(
   pm25_summary_by_year$total,
   type = "l",
   xlab = "Year",
-  ylab = "Total emissions",
+  ylab = "Total emissions (tons)",
   main = "Baltimore City, Maryland - PM2.5 emissions by year")
 
 dev.off()

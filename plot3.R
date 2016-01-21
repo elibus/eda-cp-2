@@ -26,7 +26,7 @@ qplot(
   colour = type,
   main   = "Baltimore City, Maryland - PM2.5 emissions by year",
   xlab   = "Year",
-  ylab   = "Total emissions by type"
+  ylab   = "Total emissions by type (tons)"
 )
 
 dev.off()

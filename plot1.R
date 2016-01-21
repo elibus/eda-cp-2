@@ -18,7 +18,7 @@ plot(
   pm25_summary_by_year$total,
   type = "l",
   xlab = "Year",
-  ylab = "Total emissions",
+  ylab = "Total emissions (tons)",
   main = "PM2.5 emissions by year")
 
 dev.off()

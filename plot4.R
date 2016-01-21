@@ -22,7 +22,7 @@ qplot(
   geom = "line",
   main = "Coal combustion-related PM2.5 emissions by year",
   xlab = "Year",
-  ylab = "Total emissions"
+  ylab = "Total emissions (tons)"
 )
 
 dev.off()

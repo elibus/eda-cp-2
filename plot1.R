@@ -5,7 +5,7 @@ source("common.R")
 # from all sources for each of the years 1999, 2002, 2005, and 2008.
 
 png(
-  filename = "plot1.png", width = 480, height = 480, units = "px"
+  filename = "plot1.png", width = 640, height = 480, units = "px"
 )
 
 pm25_summary_by_year <-

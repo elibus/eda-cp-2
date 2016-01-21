@@ -12,7 +12,7 @@ png(
 # join tables on SCC
 pm25_summary_by_year <-
   pm25 %>%
-  filter(pm25, fips == baltimore_fips) %>%
+  filter(fips == baltimore_fips) %>%
   left_join(classification_codes) %>%
   filter( grepl(".*Vehicle.*", Short.Name, ignore.case = TRUE) ) %>%
   group_by(year) %>%

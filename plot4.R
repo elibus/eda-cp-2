@@ -18,11 +18,12 @@ pm25_summary_by_year <-
 qplot(
   year,
   total,
-  data=pm25_summary_by_year,
-  geom="line",
-  main="Coal combustion-related PM2.5 emissions by year",
-  xlab="Year",
+  data = pm25_summary_by_year,
+  geom = "line",
+  main = "Coal combustion-related PM2.5 emissions by year",
+  xlab = "Year",
   ylab = "Total emissions"
 )
 
 dev.off()
+

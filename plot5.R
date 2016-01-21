@@ -21,10 +21,10 @@ pm25_summary_by_year <-
 qplot(
   year,
   total,
-  data=pm25_summary_by_year,
-  geom="line",
-  main="Motor Vehicles PM2.5 emissions by year - Baltimore City, Maryland",
-  xlab="Year",
+  data = pm25_summary_by_year,
+  geom = "line",
+  main = "Motor Vehicles PM2.5 emissions by year - Baltimore City, Maryland",
+  xlab = "Year",
   ylab = "Total emissions"
 )
 

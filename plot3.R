@@ -21,12 +21,12 @@ pm25_summary_by_year <-
 qplot(
   year,
   total,
-  data=pm25_summary_by_year,
-  geom="line",
-  colour=type,
-  main="Baltimore City, Maryland - PM2.5 emissions by year",
-  xlab="Year",
-  ylab = "Total emissions by type"
+  data   = pm25_summary_by_year,
+  geom   = "line",
+  colour = type,
+  main   = "Baltimore City, Maryland - PM2.5 emissions by year",
+  xlab   = "Year",
+  ylab   = "Total emissions by type"
 )
 
 dev.off()

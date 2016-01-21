@@ -18,13 +18,15 @@ pm25_summary_by_year <-
   summarise(total = sum(Emissions))
 
 
-qplot(total,
-      data=pm25_summary_by_year,
-      geom="density",
-      fill=type, alpha=I(.5),
-      main="Baltimore City, Maryland - PM2.5 emissions by year",
-      xlab = "Total emissions by type",
-      ylab="Year"
+qplot(
+  year,
+  total,
+  data=pm25_summary_by_year,
+  geom="line",
+  colour=type,
+  main="Baltimore City, Maryland - PM2.5 emissions by year",
+  xlab="Year",
+  ylab = "Total emissions by type"
 )
 
 dev.off()
